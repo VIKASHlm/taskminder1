@@ -1,0 +1,70 @@
+/* Navbar.css */
+
+.navbar {
+    background-color:white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-item {
+    margin: 0;
+    animation: fadeInUp 0.5s ease-out; /* Example animation */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Different animations for each button */
+  .home {
+    animation: slideInLeft 0.5s ease-out;
+  }
+  
+  .projects {
+    animation: slideInRight 0.5s ease-out;
+  }
+  
+  .budget-planning {
+    animation: slideInLeft 0.5s ease-out;
+  }
+  
+  .tasks {
+    animation: slideInRight 0.5s ease-out;
+  }
+  
+  .teams {
+    animation: slideInLeft 0.5s ease-out;
+  }
+  
+  .sign-out {
+    animation: slideInRight 0.5s ease-out;
+  }
+  
+  /* Add your own styles for animations */
+  

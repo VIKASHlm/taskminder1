@@ -1,0 +1,54 @@
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+.home-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-link {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #e74c3c; /* Red background color */
+  color: #fff; /* White text color */
+  border-radius: 10px;
+  font-size: 18px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature-link:hover {
+  transform: scale(1.1);
+  background-color: #2ecc71; /* Green background color on hover */
+}
+.feature-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.feature-detail {
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature-detail h3 {
+  margin-bottom: 10px;
+}
+
+/* Add your own styles for animations and colors */

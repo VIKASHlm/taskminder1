@@ -1,0 +1,54 @@
+/* Tasks.css */
+
+.tasks-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .tasks-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .task-item {
+    border: 2px solid #000;
+    padding: 15px; /* Increased padding for better spacing */
+    margin: 10px 0;
+  }
+  
+  .task-item.finished {
+    background-color: #c0e57c; /* Light green background for finished tasks */
+  }
+  
+  .task-item.running {
+    background-color: #ffd966; /* Light yellow background for running tasks */
+  }
+  
+  .create-task {
+    flex: 1;
+  }
+  
+  .create-task h2 {
+    font-size: 24px; /* Increased font size for better visibility */
+  }
+  
+  .create-task label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .create-task textarea,
+  .create-task select,
+  .create-task button {
+    margin-top: 5px;
+  }
+  
+  .create-task button {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px; /* Increased padding for a larger button */
+    cursor: pointer;
+  }
+  
